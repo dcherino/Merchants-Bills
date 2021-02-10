@@ -10,10 +10,9 @@ const Hero = ({ title, subtitle }: HeroProps) => {
   return (
     <WrapHero>
       <TextWrapper>
-        {instances.map((instance) => {
-          console.log(title, subtitle);
+        {instances.map((_, index) => {
           return (
-            <span>
+            <span key={`${title}${index}`}>
               <Title>{title}</Title>
               <Subtitle>{subtitle}</Subtitle>
             </span>

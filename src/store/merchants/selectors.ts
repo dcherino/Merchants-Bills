@@ -9,9 +9,9 @@ const getError = (state: AppState) => state.merchantsData.error;
 const groupedMerchants = (state: AppState) => state.merchantsData.merchants.reduce((accumulator, current) => {
   current.isBill === true
     ? accumulator.bill.push(current)
-    : accumulator.noBill.push(current);
+    : accumulator.potentials.push(current);
   return accumulator;
-}, {bill: [] as Array<Merchant>, noBill:[] as Array<Merchant>});
+}, {bill: [] as Array<Merchant>, potentials:[] as Array<Merchant>});
 
 export const getStatusSelector = createSelector(getStatus, (status) => status);
 export const getMerchantsSelector = createSelector(

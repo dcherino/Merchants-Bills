@@ -1,12 +1,8 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import {
-  getStatusSelector,
-  getErrorSelector,
-} from './store/merchants/selectors';
-import { fetchMerchantsRequest } from './store/merchants/actions';
+import React from 'react';
 import styled from 'styled-components';
-import Tabs from './components/Tabs';
+import Tabs from './components/Tabs/Tabs';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
 
 const Wrapper = styled.div`
   display: grid;
@@ -21,23 +17,11 @@ const Wrapper = styled.div`
 `;
 
 const App = () => {
-  const dispatch = useDispatch();
-  const status = useSelector(getStatusSelector);
-  const error = useSelector(getErrorSelector);
-
-  useEffect(() => {
-    dispatch(fetchMerchantsRequest());
-  }, [dispatch]);
-
   return (
     <Wrapper>
-      {status === 'loading' ? (
-        <div>Loading...</div>
-      ) : error ? (
-        <div>Error</div>
-      ) : (
-        <Tabs />
-      )}
+      <Header />
+      <Hero title={'Daniel Cherino'} subtitle={'FrontEnd Developer'} />
+      <Tabs />
     </Wrapper>
   );
 };

@@ -6,7 +6,7 @@ export const WrapHeader = styled.header`
 `;
 
 export const InnerWrapper = styled.div`
-  max-width: 1400px;
+  max-width: 1200px;
   padding: 0 2rem;
   margin: 0 auto;
   background-color: #fff;
