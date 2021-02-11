@@ -16,7 +16,7 @@ import { Merchant, UpdateMerchantRequest } from './types';
 const fetchMerchants = () =>
   axios.get<Merchant[]>('http://localhost:3002/merchants');
 
-function* fetchMerchantsSaga() {
+export function* fetchMerchantsSaga() {
   try {
     const response = yield call(fetchMerchants);
     yield put(fetchMerchantsSuccess(response.data));

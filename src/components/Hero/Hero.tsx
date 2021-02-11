@@ -1,6 +1,6 @@
 import { WrapHero, TextWrapper, Title, Subtitle } from './Hero.styles';
 
-interface HeroProps {
+export interface HeroProps {
   title: string;
   subtitle: string;
 }
