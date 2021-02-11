@@ -1,9 +1,9 @@
 ## Cleo Frontend Interview - Bills
 
 ![TypeScript badge](https://img.shields.io/badge/TypeScript-73.8%25-1081c1 "Typescript")
-![Redux badge](https://img.shields.io/badge/Redux%20Toolkit-1.4.0-764abc "Redux")
-![Redux Saga badge](https://img.shields.io/badge/Redux%20Toolkit-1.4.0-764abc "Redux Saga")
-![Styled Components badge](https://img.shields.io/badge/Material%20UI-4.11.2-e433ea "Styled Components")
+![React-redux badge](https://img.shields.io/badge/react-redux-7.2.2-764abc "Redux")
+![Redux Saga badge](https://img.shields.io/badge/redux-saga-1.1.3-764abc "Redux Saga")
+![Styled Components badge](https://img.shields.io/badge/Styled%20Components-5.2.1-e433ea "Styled Components")
 
 A SWA React/TypeScript which displays a list of Bills
 
