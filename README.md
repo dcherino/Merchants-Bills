@@ -7,6 +7,8 @@
 
 A SWA React/TypeScript which displays a list of Bills
 
+To see a live version of the app, please run the mock API on your local machine with the command `yarn api` and click [here](http://cleo.cherino.me)
+
 The technologies used to develop this project are:
 
 * ReactJS
