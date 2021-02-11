@@ -18,7 +18,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const Title = styled.span`
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;;
   font-size: 8rem;
   display: block;
   marign: 0;
@@ -31,7 +31,7 @@ export const Title = styled.span`
 `;
 
 export const Subtitle = styled.span`
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;;
   font-size: 6rem;
   display: block;
   marign: 0;

@@ -30,13 +30,13 @@ export const BasicInfo = styled.div`
 
   h3 {
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;;
     color: #2e3247;
     font-size: 1.6rem;
   }
 
   div {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;;
     font-size: 0.8rem;
     margin-top: 0.5rem;
   }
@@ -91,7 +91,7 @@ export const Transactions = styled.div`
 
   h4{
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;;
     font-size: 1.2rem;
     margin: 1rem;
     color: #2b2b96;
