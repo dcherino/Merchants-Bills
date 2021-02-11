@@ -7,8 +7,6 @@
 
 A SWA React/TypeScript which displays a list of Bills
 
-[Live demo](http://cleo.cherino.me)
-
 The technologies used to develop this project are:
 
 * ReactJS
@@ -37,6 +35,14 @@ Regarding with the development, I found this technical assigment very exciting a
 One of the most instersting thing has been working using Sagas. Personally, I have always used redux + thunks as my state management tool, but after working in this app, I can seen the advantages that sagas offer on big scales.
 
 I would like to flag that as I was running out of time, I only added tests where I considered it was more relevant for this project. Normally, I would try to cover most of the app. Please, let me know if these are enough.
+
+## Improvements
+
+There are some improvements that I would like to do if I had more time to work on this application. These improvements are:
+
+* Mobile version. It is not fully adapted for mobile version now, but should be very easy to do.
+* Increase test coverage.
+
 
 ## Challenges
 
