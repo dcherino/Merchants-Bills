@@ -14,9 +14,9 @@ export const InnerWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  & h1 {
+  h1 {
     color: #2e3247;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
   }
 `;
 

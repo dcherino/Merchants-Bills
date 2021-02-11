@@ -1,3 +1,4 @@
+import React from 'react';
 import { WrapHeader, InnerWrapper, LogoWrap } from './Header.styles';
 import Logo from './Logo';
 
