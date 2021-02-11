@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Tabs from './components/Tabs/Tabs';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
+import Footer from './components/Footer/Footer';
 
 const Wrapper = styled.div`
   display: grid;
@@ -22,6 +23,7 @@ const App = () => {
       <Header />
       <Hero title={'Daniel Cherino'} subtitle={'FrontEnd Developer'} />
       <Tabs />
+      <Footer />
     </Wrapper>
   );
 };
